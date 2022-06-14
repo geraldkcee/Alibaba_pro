@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+.header{
+  width: 100%;
+  height: 100px;
+  box-shadow: 2px 2px orangered;
+  background-color: #35424a;
+  position: fixed;
+}
+
+#head h2{
+  text-align: center;
+  font-size: 23px;
+  position: relative;
+  color: #fff;
+  font-family: monospace;
+}
+
+/*nav link */
+.nav_link{
+  position: absolute;
+  float: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav_link ul li{
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  top: 7px;
+  list-style: none;
+}
+
+.nav_link ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* for background */
+img{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* For the newsletter */
+.container{
+  padding: 20px;
+  margin-top: 0px;
+  position: absolute;
+  display: block;
+  padding-left: 50px;
+  width: 100%;
+  height: 180px;
+  background: #35424a;
+}
+
+.container h2{
+  text-align: center;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container #email{
+  width: 290px;
+  height: 35px;
+  padding: 15px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.container #text{
+  display: block;
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  padding: 5px;
+}
+
+.container .submit{
+  width: 200px;
+  height: 40px;
+  padding: 0px;
+  margin-left: 25px;
+  border-radius: 10px;
+  outline: none;
+  background: coral;
+  color: white;
+  border: none;
+  left: 20px;
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* for shop now button */
+.For_shopping{
+  position: relative;
+  top: 180px;
+  width: 100%;
+  height: 80px;
+  background: #35424a;
+}
+
+.For_shopping  #submit{
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 120px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  height: 100px;
+  background: orange;
+  position: relative;
+  padding: 0px;
+  bottom: -180px;
+}
+
+footer p{
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* for the about.html */
+.danger{
+  position: absolute;
+  top: 102px;
+  width: 100%;
+  height: 50px;
+  background: whitesmoke;
+}
+
+.danger #danger_1 h1{
+  position: relative;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.danger #danger_1 p{
+  margin-top: 10px;
+  top: 10px;
+  font-family: monospace;
+  font-size: 19px;
+  font-weight: bold;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+/* for contact.html */
+.contact{
+  position: absolute;
+  top: 102px;
+  background: black;
+}
+
+.contact h2{
+  margin: 30px;
+  color: #fff;
+}
+
+/* for shop.html */
+.shopinverse{
+  position: absolute;
+  top: 102px;
+  width: 100%;
+  height: 200px;
+  background: #35424a;
+}
+
+.shopinverse ul{
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+}
+
+.shopinverse ul li{
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  margin: 5px;
+  margin-left: 5px;
+  background-color: firebrick;
+  border-radius: 3px;
+  color: #fff; 
+font-weight: bold;
+}
+
+/* Responsiveness */
+@media screen and (max-device-width: 3600px){
+  #head h2 .nav_link ul li a{
+    text-align: right;
+    font-size: 23px;
+    position: relative;
+    color: #fff;
+    font-family: monospace;
+    right: 50px;
+    
+  }
+}
+  
